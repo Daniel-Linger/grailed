@@ -1,0 +1,101 @@
+body {
+  margin:0; padding:5vw;
+  font-family:sans-serif;
+  background-color:rgb(214,214,214);
+}
+
+ 
+
+body > p {
+  max-width:32em;
+}
+
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #ffff;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
+
+ul {
+  margin:0; padding:0;
+  max-width:32em;
+  list-style:none;
+}
+
+ 
+
+li {
+  margin-bottom:5vw;
+  background-color:white;
+}
+
+ 
+
+img {
+  display:block;
+  width:100%;
+}
+.productitem{
+ display:flex;
+   flex-flow: row wrap;
+    object-fit: cover;
+    /*past zich aan de grote van de li*/
+    
+    
+  margin-left: auto;
+  margin-right: 50%;
+  width: 50%;
+      display: flex;
+    width: auto;
+    justify-content: space-between;
+    
+   
+}
+.grailedlogo{
+    height: 17px;
+    width: 130px;
+}
+.nav_links{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    color: black;
+}
+.search{
+   margin:auto;
+    max-width:300px;
+}
+}
