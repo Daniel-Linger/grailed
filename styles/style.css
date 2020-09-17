@@ -1,5 +1,66 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+body {
+    margin: 0;
+    padding: 5vw;
+    font-family: sans-serif;
+    background-color: rgb(214, 214, 214);
 }
 
+body > p {
+    max-width: 32em;
+    font-family: Arial;
+}
+
+ul {
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+}
+
+.caption {
+    font-size: 1em;
+    font-style: italic;
+    font-family: sans-serif;
+    color: grey
+}
+
+
+}
+li {
+    margin-bottom: 5vw;
+    background-color: white;
+}
+.productitem {
+    width: 50vw;
+    max-width: 20em;
+}
+.grailedlogo {
+    height: 17px;
+    width: 130px;
+}
+.nav_links {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    color: black;
+}
+.search {
+    margin: auto;
+    max-width: 300px;
+}
+.productitem > img {
+    width: 100%;
+}
+.productitem > p >span {
+    color: red;
+}
+.productitem > figure {
+    width: 100%;
+    max-width: 30em;
+}
+.productitem > p {
+    display: flex;
+    justify-content: space-between;
+}
+.productitem > h4>span {
+   align-items: flex-end
+}
