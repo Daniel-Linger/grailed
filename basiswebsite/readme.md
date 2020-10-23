@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Daniël Linger
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -56,16 +56,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+*Grailed: Vintage High-End
 
-**Je focus:** -kies uit responsive óf surface plane-
+Proces Verslag Frontend Development:
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+Startniveau: Middelmatig, kan basis code, weinig verstand van javascript.
 
-**Screenshot(s):**
+Namaak Website: www.grailed.com Reden: Ik maak veel gebruik van deze website ,het is een high-end vintage doorverkoop medium. Veel functies worden responsive gemaakt binnen de site. O.A: - Liken - Subscriben - Saven - Recommend choices
+
+Focus ligt op: - Saved Items - Followed Sellers
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
 
+<img src="images/Grailed_screen_Home.png">
+<img src="images/Grailed_screen_itempage.png">
 **Breakdown-schets(en):**
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+<img src="images/Breakdown_grailed.png">

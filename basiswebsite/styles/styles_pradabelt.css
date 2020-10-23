@@ -1,0 +1,119 @@
+/* een paar algemene dingetjes */
+/* hoef je niets aan te veranderen */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+body {
+  margin:0; padding:5vw;
+  font-family:sans-serif;
+  background-color:rgb(214,214,214);
+}
+
+@media (min-width:38em) { body { padding:3vw; } }
+@media (min-width:57em) { body { padding:2.5vw; } }
+
+
+/****************************************************/
+/* styling voor de one-column versie van de website */
+/****************************************************/
+.grailedlogo {
+    height: 17px;
+    width: 130px;
+}
+main {
+  padding:1.5em;
+  font-family: 'Arial';
+  background-color:;
+    
+}
+.nav_links {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    color: black;
+}
+    
+main h2 {
+  margin:0 0 1.5rem;
+  /* fallback voor browser die de volgende regel nog niet ondersteunen */
+  font-size:2.25em;
+  /* de font-size wordt langzaam groter als het scherm breder wordt */
+  /* maar niet groter dan 3em */
+  font-size:min(calc(.7em + 5vw), 3em);
+  font-weight:normal;
+    font-family: 'Arial';
+
+}
+
+main h3 {
+  margin:0;
+  font-size:1em;
+}
+
+.ul{
+    
+    
+}
+    
+    
+}
+
+main p {
+  margin:0 0 1.5rem;
+}
+
+/* de paragraaf direct na de h2 */
+main h2 + p {
+  color:crimson;
+}
+
+main figure {
+  margin:0 0 1.5rem;
+}
+
+main img {
+  width:100%;
+  max-width:16em;
+}
+
+main figcaption {
+  color:grey;
+}
+
+main a {
+  color:dodgerblue;
+}
+
+
+/********************************************************************/
+/* styling voor de website als de browser minimaal 44em breed is    */
+/* dit is een eerste media query - volgende gaan we daar mee verder */
+/********************************************************************/
+
+@media (min-width:44em) {
+  /* binnen deze media query kun je extra styling toevoegen die dus pas geldt als de browser minimaal 44em breed is */
+  main {
+    /* bijv. */
+    padding:2.25em;
+    display:grid;
+
+  }
+  
+  main h2 {
+
+  }
+  
+  main h3 {
+    
+  }
+
+  main p {
+
+  }
+  
+  main figure {
+
+  }
+  
+}
