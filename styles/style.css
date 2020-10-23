@@ -10,10 +10,34 @@ body > p {
     font-family: Arial;
 }
 
+.grailedlogo {
+    height: 17px;
+    width: 130px;
+}
+
+.nav_links {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    color: black;
+}
+
+.search {
+    margin: auto;
+    max-width: 300px;
+}
+
 ul {
-    margin: 0%;
+    margin: 0;
     padding: 0;
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(15em, 1fr));
+    grid-gap: 2em;
+}
+
+.productitem > a img {
+    width: 100%;
 }
 
 .caption {
@@ -23,44 +47,30 @@ ul {
     color: grey
 }
 
-
-}
-li {
-    margin-bottom: 5vw;
-    background-color: white;
-}
-.productitem {
-    width: 50vw;
-    max-width: 20em;
-}
-.grailedlogo {
-    height: 17px;
-    width: 130px;
-}
-.nav_links {
-    display: flex;
-    width: auto;
-    justify-content: space-between;
-    color: black;
-}
-.search {
-    margin: auto;
-    max-width: 300px;
-}
-.productitem > img {
-    width: 100%;
-}
 .productitem > p >span {
     color: red;
 }
-.productitem > figure {
-    width: 100%;
-    max-width: 30em;
-}
+
 .productitem > p {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
 .productitem > h4>span {
-   align-items: flex-end
+    align-items: flex-end
+}
+
+.productitem button {
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0;
+    
+}
+
+.productitem button img {
+    width: 1.5em;
+    height: auto;
+    display: block;
 }
