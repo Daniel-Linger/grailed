@@ -27,6 +27,8 @@ Wat ging er goed:
   orignele website.
 -  De motivatie had ik weer terug gevonden
 
+Wat ging er minder goed:
+-  Ik wilde meer functies toevoegen zoals een carrousel voor de afbeeldingen alleen dat lukte niet waardoor het wel een bepaalde look & feel mist.
 
 
 -screenshot(s) van je eindresultaat-
@@ -55,7 +57,8 @@ Ik snapte de werking vaan javascript met Sanne's uitleg
 Ik snapte de werking van styling waardoor de focus responsiveness beter naar voren kwam.
 
 Wat ging er minder goed
-
+Ik merkte dat dat ik soms traag van begrip was bij Sanne's uitleg en dat maakte mij soms onzeker
+Ik had bij sommige onderdelen meer begeleiding nodig dan ik eigenlijk had gedacht.
 
 
 ## Voortgang 2 (week 5)
